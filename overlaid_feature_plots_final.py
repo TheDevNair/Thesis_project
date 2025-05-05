@@ -5,7 +5,7 @@ import tensorflow as tf
 from tensorflow import keras
 from sklearn.preprocessing import StandardScaler
 import matplotlib.pyplot as plt
-import seaborn as sns # Still using for color palettes
+import seaborn as sns 
 import joblib
 import warnings
 import datetime
@@ -20,10 +20,9 @@ DATA_FILES = [
     r"C:/Users/Dev/OneDrive/Desktop/hbb_production_parquet/ntuple_merged_10_optimized_filtered6.parquet",
     r"C:/Users/Dev/OneDrive/Desktop/hbb_production_parquet/ntuple_merged_11_optimized_filtered6.parquet",
     r"C:/Users/Dev/OneDrive/Desktop/hbb_production_parquet/ntuple_merged_12_optimized_filtered6.parquet",
-    # Add more files if needed
 ]
 
-PLOT_DIR = "feature_plots_manual_style_v4" # New directory name
+PLOT_DIR = "feature_plots_manual_style_v4" 
 
 FEATURE_COLUMNS = [
     'fj_jetNTracks', 'fj_nSV',
@@ -172,7 +171,7 @@ def plot_comparison_matplotlib_style(ax, feature_data, mask_sig, mask_bkg, featu
         else: print(f"      Warning: No signal data for plot for {feature_name}.")
 
     # --- Style Customizations ---
-    ax.set_xlabel(feature_name) # Keep full name for clarity maybe? Or remove fj_
+    ax.set_xlabel(feature_name) 
     ax.set_ylabel("Normalized Density")
     # Title is set outside this function
 
