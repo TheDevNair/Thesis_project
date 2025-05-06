@@ -1,10 +1,3 @@
-# find_best_hps.py
-
-# --- Required Libraries ---
-# Make sure you have these installed:
-# pip install tensorflow pandas scikit-learn joblib pyarrow fastparquet keras-tuner
-# --------------------------
-
 import os
 import numpy as np
 import pandas as pd
