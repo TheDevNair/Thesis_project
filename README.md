@@ -4,7 +4,7 @@ This repo holds the code and resources for my Master's thesis: **"Development of
 
 The goal was to build a classifier that can distinguish Higgs boson decays ($H \rightarrow b\bar{b}$) from the QCD background in boosted topologies. I used CMS Open Data (Run 2).
 
-**Thesis PDF:** [DevNair_MSc_Thesis.pdf](./DevNair_MSc_Thesis.pdf)
+**Thesis PDF:** [DevNair_MSc_Thesis](./DevNair_MSc_Thesis.pdf)
 
 ### 📂 What's in here
 This is a flat directory containing the full pipeline I ran on my laptop—from raw ROOT files to final plots.
